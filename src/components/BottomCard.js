@@ -20,6 +20,7 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import SourceIcon from "@mui/icons-material/Source";
 import ProductionQuantityLimitsIcon from "@mui/icons-material/ProductionQuantityLimits";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 import ContentCut from "@mui/icons-material/ContentCut";
 import ContentCopy from "@mui/icons-material/ContentCopy";
@@ -138,14 +139,17 @@ export default function PositionedPopper() {
           </Fade>
         )}
       </Popper>
-      <Grid  container justifyContent="center">
-        <Grid className="absolute bottom-0 right-0 cursor-pointer " sx={{ width: 250, maxWidth: "100%" }}>
+      <Grid container justifyContent="center">
+        <Grid
+          className="absolute bottom-0 right-0 cursor-pointer  "
+          sx={{ width: 250, maxWidth: "100%" }}
+        >
           <Card
-            style={{ backgroundColor: "green", color: "white" }}
-            className="p-2 border-2 shadow-xl shadow-black font-bold"
+            style={{ backgroundColor: "#323f54", color: "white" }}
+            className="p-2 border-2 shadow-xl shadow-black font-bold "
             onClick={handleClick("top")}
           >
-           &nbsp; Knowledge Database &nbsp;
+            &nbsp; Knowledge Database &nbsp; <MenuBookIcon fontSize="large" className="bg-slate-500 rounded-full p-2" />
           </Card>
         </Grid>
       </Grid>
