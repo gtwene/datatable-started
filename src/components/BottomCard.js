@@ -141,12 +141,12 @@ export default function PositionedPopper() {
       </Popper>
       <Grid container justifyContent="center">
         <Grid
-          className="absolute bottom-0 right-0 cursor-pointer  "
+          className="absolute bottom-0 right-0 cursor-pointer"
           sx={{ width: 250, maxWidth: "100%" }}
         >
           <Card
             style={{ backgroundColor: "#323f54", color: "white" }}
-            className="p-2 border-2 shadow-xl shadow-black font-bold "
+            className="p-2 border-2 shadow-xl shadow-black font-bold"
             onClick={handleClick("top")}
           >
             &nbsp; Knowledge Database &nbsp; <MenuBookIcon fontSize="large" className="bg-slate-500 rounded-full p-2" />
