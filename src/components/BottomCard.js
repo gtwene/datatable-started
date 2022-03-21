@@ -149,7 +149,7 @@ export default function PositionedPopper() {
             className="p-2 border-2 shadow-xl shadow-black font-bold"
             onClick={handleClick("top")}
           >
-            &nbsp; Knowledge Database &nbsp; <MenuBookIcon fontSize="large" className="bg-slate-500 rounded-full p-2" />
+            &nbsp; Knowledge Database &nbsp; <MenuBookIcon fontSize="large" style={{backgroundColor: "blue", borderRadius: "100px", padding: "2px"}} />
           </Card>
         </Grid>
       </Grid>
