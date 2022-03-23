@@ -5,24 +5,24 @@ import { BsYoutube } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import { FcHome } from "react-icons/fc";
 
-const IconCards4 = () => {
+const IconCards3 = () => {
   const buttonStyling = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-green-400 via-green-600 to-blue-400 rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
    `;
 
-  const buttonStylingnext = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-[#FF9119] rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
+   const buttonStylingnext = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-[#1da1f2] rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
    `;
 
-  const buttonStyling2 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-teal-200 to-lime-200  rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
+   const buttonStyling2 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-teal-200 to-lime-200  rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
    `;
 
-  const buttonStyling3 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
+   const buttonStyling3 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
    `;
 
-  const buttonStyling4 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-green-200 via-green-400 to-green-100 rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
+   const buttonStyling4 = `flex items-center space-x-2 font-semibold border-2 border-grey-100 bg-gradient-to-r from-green-200 via-green-400 to-green-100 rounded-lg ring-grey-200 p-10 shadow hover:bg-gray-50 
    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
    `;
 
@@ -32,6 +32,18 @@ const IconCards4 = () => {
 
   return (
     <div className="flex space-x-10 m-5">
+      <div className="">
+        <div className="grid grid-cols-1 place-items-center">
+          <button className={buttonStyling}>
+            <GrSettingsOption
+              size="3.5rem"
+              className="fill-blue-700 animate-spin"
+            />
+            <text className={textStyle1}>Create Additional Account</text>
+          </button>
+        </div>
+      </div>
+
       <div className="">
         <div className="grid grid-cols-1 place-items-center">
           <button className={buttonStylingnext}>
@@ -83,4 +95,4 @@ const IconCards4 = () => {
   );
 };
 
-export default IconCards4;
+export default IconCards3;
